@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+  <title>calculator</title>
+  <link rel="stylesheet" type="text/css" href="./cal.css">
+</head>
+<script type="text/javascript" src="./cal.js">
+</script>
+
+<body>
+  <p id="answer">                                  </p>
+  <button class="num" id ="7" onclick= "wr(7)">7</button>
+  <button class="num" id ="8" onclick="wr(8)">8</button>
+  <button class="num"  onclick="wr(9)">9</button>
+  <button class="oper"  onclick= "wr('+')">add</button>
+  <button class="oper"  onclick="ans()">ANS</button>
+
+
+  </br>
+  <button class="num" onclick= "wr(4)">4</button>
+  <button class="num"  onclick="wr(5)">5</button>
+  <button class="num"  onclick="wr(6)">6</button>
+  <button class="oper"  onclick="wr('-')">sub</button>
+
+  </br>
+  <button class="num" onclick="wr(3)">3</button>
+  <button class="num" onclick="wr(2)">2</button>
+  <button class="num" onclick="wr(1)">1</button>
+  <button class="oper" onclick="wr('*')">mul</button>
+
+  </br> 
+  <button class="btn" onclick="clr()">C</button>
+  <button  class="num"  onclick="wr(0)">0</button>
+  <button class ="btn"onclick="back()"><</button>
+  <button class="oper"  onclick="wr(/)">div</button>
+  </br>
+ </body>
+ </html>
